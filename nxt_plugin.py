@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # Copyright (C) 2011 Emiliano Pastorino <epastorino@plan.ceibal.edu.uy>
@@ -38,7 +38,7 @@ from TurtleArt.tapalette import special_block_colors
 from TurtleArt.tapalette import palette_blocks
 from TurtleArt.talogo import logoerror
 from TurtleArt.taconstants import BLACK, WHITE, CONSTANTS, MACROS
-from TurtleArt.taprimitive import Primitive, ArgSlot, ConstantArg
+from TurtleArt.taprimitive import Primitive, ArgSlot
 from TurtleArt.tatype import TYPE_INT, TYPE_STRING, TYPE_NUMBER
 
 sys.path.insert(0, os.path.abspath('./plugins/nxt_plugin'))
